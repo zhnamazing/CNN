@@ -12,9 +12,7 @@
 2）通过硬件实现sobel边缘检测，将灰度图转换为梯度图，进一步增加输入的稀疏度
 3）改进的稀疏激活跳过机制，对于接近0的像素跳过对应访存和计算操作，缩短组合逻辑链的同时避免了高扇出问题
 
-![PE_structures](C:\Users\LENOVO\Desktop\CNN\Pictures\PE_structures.png)
-
-
+![PE_structures](https://github.com/zhnamazing/CNN/blob/main/Pictures/PE_structures.png?raw=true)
 
 网络模型使用类LeNet；数据集采用CIFAR-100，属于简单分类任务
 
