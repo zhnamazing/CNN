@@ -37,7 +37,7 @@
 给出（W,H,C）的访存地址，首先计算对应的bank，再得到bank内地址。数据的读取和写入以及bank的读写切换通过状态机控制。
 设置掩码寄存器mask，每一位与bank中的数据一一对应，用于标志数据是否为0，后续dendrite访存时据此进行稀疏跳过。
 
-![ping-pong_buffer_previous](C:\Users\LENOVO\Desktop\CNN\Pictures\ping-pong_buffer_previous.png)
+![ping-pong_buffer_previous](https://github.com/zhnamazing/CNN/blob/main/Pictures/ping-pong_buffer_previous.png?raw=true)
 
 ###### 树突Dendrite：
 
