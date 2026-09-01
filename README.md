@@ -46,7 +46,7 @@ dendrite生成地址以从axon中获取输入数据，同时产生卷积核权�
 稀疏跳过机制中，利用当前（W,H,C）提前计算最多4个后续访问激活位置，若对应位置掩码为0，即可直接跳过对应访存和计算
 为适应上一层的输出数据流，激活各维度的遍历（编址）优先级为：通道—列—行，即先处理同一行同一列的各通道，再转换到同一行的下一列。完成一个卷积窗口运算后，卷积核按照先行后列的方式在输入特征图上移动
 
-[![mask_based-jumping](C:\Users\LENOVO\Desktop\CNN\Pictures\mask_based-jumping.png)](https://github.com/zhnamazing/CNN/blob/main/Pictures/mask_based-jumping.png?raw=true)
+![mask_based-jumping](https://github.com/zhnamazing/CNN/blob/main/Pictures/mask_based-jumping.png?raw=true)
 
 ###### 胞体Soma：
 
