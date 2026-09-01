@@ -20,7 +20,7 @@
 采用权重固定数据流：权重等参数被预加载到每个PE中，激活则从主存储中读取，计算结果在PE之间传播
 网络的激活和权重均存储在BRAM IP中。flit又分为激活flit和权重flit，系统启动后，首先完成权重参数的配置，将对应权重写入MAC中的BRAM，之后将激活输入axon中的bank
 
-![网络规模配置](C:\Users\LENOVO\Desktop\CNN\Pictures\网络规模配置.png)
+![网络规模配置](https://github.com/zhnamazing/CNN/blob/main/Pictures/%E7%BD%91%E7%BB%9C%E8%A7%84%E6%A8%A1%E9%85%8D%E7%BD%AE.png?raw=true)
 
 原始数据为RGB三通道，处理前首先将其转换为灰度图
 数据类型采用16位补码有符号数，位宽随运算对应扩展
